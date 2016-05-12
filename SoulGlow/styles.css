@@ -1,0 +1,217 @@
+@charset "utf-8";
+#container {
+	height: 1015px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+}
+
+#indhold {
+	background-color: #FFF;
+	float: right;
+	height: 875px;
+	width: 940px;
+}
+
+#leftmenu {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 12px;
+	color: #666;
+	background-color: #f2f2f2;
+	float: left;
+
+S
+	height: 300px;
+	width: 260px;
+	margin-top: 15px;
+	height: 300px;
+}
+
+#logo {
+	float: left;
+	background-image: S
+	url(file://///cv.local/dfs/Students/bole0811/Desktop/V%C3%A6ksthus/SoulGlow/images/logo.jpg);
+	margin-top: -40px	
+}
+
+#logo img {
+	position:absolute;
+	animation-name:GalleryAnimation;
+	animation-duration:16s;
+	animation-iteration-count:infinite;
+	opacity:0;
+}
+
+#slideshow {
+	float: left;
+	height: 290px;
+	width: 500px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+#billeder {
+	float: left;
+	width: 880px;
+	margin-top: 40px;
+	margin-left: -70px;
+}
+
+footer {
+	float: left;
+	height: 90px;
+	width: 1200px;
+	margin-bottom: 225px;
+	margin-left: -40px;
+	margin-top: 30px;
+}
+
+footer p {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #000;
+}
+
+.soulglow {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #810304;
+}
+
+header h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #990000;
+	margin-left: 300px;
+	float: left;
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 4s;
+	animation-name: example;
+    animation-duration: 4s;
+}
+
+header {
+	float: left;
+	height: 140px;
+	width: 1200px;
+	background-color: #FFF;
+}
+
+ul, li {
+	padding: 0;
+	list-style: none;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+li {
+	display: inline;
+	margin-left: 30px;
+	margin-right: -30px;
+}
+
+#leftmenu li {
+	display: block;
+}
+
+.menu {
+	margin-top: 20px;
+	margin-left: -60px;
+}
+
+nav {
+	background-color: #f2f2f2;
+	height: 30px;
+	width: 775px;
+	color: #999999;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	float: left;
+	margin-left: 300px;
+}
+
+#sidebar {
+	float: left;
+	height: 445px;
+	width: 260px;
+	background-color: #FFF;
+	clear: both;
+}
+
+a:link {
+	color: #999999;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+a:visited {
+	color: #999999;
+	
+}
+
+a:hover {
+	color: #999999;
+}
+
+section p {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+	float: left;
+	margin-left: 20px;
+}
+
+section {
+	float: left;
+	height: 300px;
+	width: 660px;
+}
+
+section h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	float: left;
+	margin-top: 250px;
+	margin-right: -100px;
+}
+
+#Timer {
+	float: right;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+#billede1 {
+	margin-top: 20px;
+	float: left;
+}
+
+<!--Alle mine animations--!>
+@-webkit-keyframes example {
+    from {color: red;}
+    to {color: green;}
+}
+
+@keyframes example {
+    from {color: red;}
+    to {color: green;}
+}
+
+#img1{animation-delay:0s;}
+#img2{animation-delay:4s;}
+
+@keyframes GalleryAnimation{
+	0%{opacity:0;}
+	25%{opacity:1;}
+	50%{opacity:0;}
+	75%{opacity:0;}
+	100%{opacity:0;}
+}
